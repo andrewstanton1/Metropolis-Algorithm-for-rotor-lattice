@@ -9,6 +9,7 @@ Two programs for sophisticated implementation of a model lattice with nearest ne
 
 # System Requirements
 ## Hardware Requirements
+Program requires only a standard computer with enough RAM to support the in-memory operations.
 
 ## Software requirements
 ### OS Requirements
