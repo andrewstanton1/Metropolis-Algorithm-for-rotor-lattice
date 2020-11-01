@@ -35,7 +35,8 @@ pip install mayavi
 git clone https://github.com/andrewstanton1/Metropolis-Algorithm-for-rotor-lattice.git
 ```
 # Demo:
-In the demo folder there is an expected output for polarization vs temperature for a run with 10 data points. The configuration and parameters of this demo run are set by default in the parameters.py folder found in the rotor-model folder. The demo folder also contains snapshots of the state of the lattice are recorded at N = 1000*x, x=0,1,...,10. The expected runtime of this demo is 1 hour and 15 minutes on average. 
+In the demo folder there is an expected output for polarization vs temperature for a run with 10 data points. The demo folder also contains snapshots of the state of the lattice are recorded at N = 1000*x, x=0,1,...,10. The expected runtime of this demo is 1 hour and 15 minutes on average. 
 
 # Instructions for use:
-To run - checkout the branch and launch a Jupyter Notebook session in the rotor-model directory. Ensure all Python dependencies and runtime are installed as defined in requirements.txt and runtime.txt. Configure parameters in parameters.py (note: default parameters are set for demoing). Run each cell in the rotor_model notebook to calculate the polarization across temperature. Run each cell in lattice_visual_random to generate a real-time simulation of the lattice structure.
+Launch a Jupyter Notebook session in the rotor-model directory. Run pip install -r requirements.txt  
+Configure parameters in parameters.py (note: default parameters are set for demoing). Run each cell in the rotor_model notebook to calculate the polarization across temperature. Run each cell in lattice_visual_random to generate a real-time simulation of the lattice structure.
