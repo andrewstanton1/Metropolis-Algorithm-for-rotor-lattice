@@ -3,6 +3,8 @@
 - [Overview](#overview)
 - [System Requirements](#system-requirements)
 - [Installation Guide](#installation-guide)
+- [Demo](#demo)
+- [Instructions for use](#instruction-for-use)
 
 # Overview
 Two programs for sophisticated implementation of a model lattice with nearest neighbor interactions. DFT calcuations were performed by collaborator to explore the energetics of F2BODCA-MOF motion of a MOF crystal structure, and the resultant 2-fold symmetry in rotational lattice potential serves as one input to the Hamiltonian used in Monte Carlo simulation. This simulation was used along side experimental probes, including dielectric measruement and solid state NMR, in order to infer about phase transitions and the electronic ground state configuration of this rotor lattice. A visual simulation of the lattice is included in the program files. 
@@ -32,3 +34,8 @@ pip install mayavi
 ```
 git clone https://github.com/andrewstanton1/Metropolis-Algorithm-for-rotor-lattice.git
 ```
+# Demo:
+In the demo folder there is an expected output for polarization vs temperature for a run with 10 data points. The configuration and parameters of this demo run are set by default in the parameters.py folder found in the rotor-model folder. The demo folder also contains snapshots of the state of the lattice are recorded at N = 1000*x, x=0,1,...,10. The expected runtime of this demo is 1 hour and 15 minutes on average. 
+
+# Instructions for use:
+To run - checkout the branch and launch a Jupyter Notebook session in the rotor-model directory. Ensure all Python dependencies and runtime are installed as defined in requirements.txt and runtime.txt. Configure parameters in parameters.py (note: default parameters are set for demoing). Run each cell in the rotor_model notebook to calculate the polarization across temperature. Run each cell in lattice_visual_random to generate a real-time simulation of the lattice structure.
