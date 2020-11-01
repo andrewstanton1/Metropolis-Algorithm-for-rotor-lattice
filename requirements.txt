@@ -1,0 +1,5 @@
+numpy>=1.15.0
+Cython>=0.29
+matplotlib>=3.3
+mayavi>=4.7
+PyQt5>=5.1

@@ -21,12 +21,11 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install depende
 ```bash
 pip install cython
 pip install numpy
-pip install scipy
+pip install matplotlib
 
--Used in lattice-visual-model for real time visual simulation 
+-Additionally, install the following for lattice-visual-model for real time visual simulation 
 pip install PyQt5
 pip install mayavi
-pip install vtk
 ```
 # Installation Guide:
 ### Checkout from Github
