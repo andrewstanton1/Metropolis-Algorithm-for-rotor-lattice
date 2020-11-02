@@ -11,7 +11,7 @@ Two programs for sophisticated implementation of a model lattice with nearest ne
 
 # System Requirements
 ## Hardware Requirements
-Program requires only a standard computer with enough RAM to support the in-memory operations.
+Program requires only a computer with at least 4gb of RAM.
 
 ## Software requirements
 ### OS Requirements
@@ -21,6 +21,7 @@ This program is supported for *Windows*. The program has been tested on the foll
  ### Python Dependencies
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install dependenices. See requirements.txt
 ```bash
+pip install notebook
 pip install cython
 pip install numpy
 pip install matplotlib
