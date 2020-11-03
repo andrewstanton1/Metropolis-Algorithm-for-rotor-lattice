@@ -53,4 +53,4 @@ Two programs for sophisticated implementation of a model lattice with nearest ne
 
 ## Sample Output
 
-In the `examples` folder there is an expected output for polarization vs temperature for a run with 10 data points. The `examples` folder also contains snapshots of the state of the lattice are recorded at `N = 1000 * x, x = 0, 1, ..., 10`.  The `rotor_model` notebook should run fairly quickly using the default values in `parameters.py`, but won't produce any meaning results.
+In the `examples` folder there is an expected output for polarization vs temperature for a run with 10 data points. The `examples` folder also contains snapshots of the state of the lattice are recorded at `N = 1000 * x, x = 0, 1, ..., 10`.  The `rotor_model` notebook should run fairly quickly using the default values in `parameters.py`, but won't produce any meaning results - note: suggested parameters are defined in parameters.py.
