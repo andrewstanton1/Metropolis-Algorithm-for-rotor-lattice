@@ -3,6 +3,7 @@
 - [Metropolis-Algorithm-for-rotor-lattice](#metropolis-algorithm-for-rotor-lattice)
   - [Overview](#overview)
   - [System Requirements](#system-requirements)
+  - [Software Requirements](#software-requirements)
   - [Quick Start](#quick-start)
   - [Sample Output](#sample-output)
 
@@ -17,6 +18,10 @@ Two programs for sophisticated implementation of a model lattice with nearest ne
 - Graphics: Intel HD 4000
 - RAM: 4 GB
 - Disk space: 1 GB
+
+## Software Requirements
+
+- Python-3.7.0
 
 ## Quick Start
 
